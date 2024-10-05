@@ -121,7 +121,6 @@ socks pass {
         from: 0.0.0.0/0 to: 0.0.0.0/0
         protocol: tcp udp
 }
-pidfile: /var/run/danted.pid
 EOT
 
 systemctl restart danted.service
